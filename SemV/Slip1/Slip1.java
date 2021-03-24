@@ -1,3 +1,7 @@
+/* Write a java program to read the characters from a file, if a character is alphabet then reverse
+ its case, if not then display its category on the Screen. (whether it is Digit or Space) */
+
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.InputStreamReader;
