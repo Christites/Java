@@ -4,11 +4,12 @@ order. */
 import java.io.*;
 class Slip2 {
     public static void main (String args[]) throws IOException{
-        int i,j;
+        int i,j,n;
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        n = Integer.parseInt(br.readLine());
         String str[]=new String[5] ;
         String s1;
         String s2,temp;
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         for (j=0;j<5;j++) {
             System.out.println("Enter the name "+j+" of the Cities :=> ");
             str[j]= br.readLine();
