@@ -4,7 +4,7 @@ order. */
 import java.io.*;
 class Slip2 {
     public static void main (String args[]) throws IOException{
-        int n,len,len1,c,i,j,k=0,m=0;
+        int i,j;
         String str[]=new String[5] ;
         String s1;
         String s2,temp;
