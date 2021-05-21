@@ -1,0 +1,108 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+GlobalGamingTournamentManagementSystem
+</name>
+</assembly>
+<members>
+<member name="T:GlobalGamingTournamentManagementSystem.GlobalDataSet.IndividualDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GlobalGamingTournamentManagementSystem.GlobalDataSet.IndividualRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GlobalGamingTournamentManagementSystem.GlobalDataSet.IndividualRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GlobalGamingTournamentManagementSystem.GlobalDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:GlobalGamingTournamentManagementSystem.GlobalDataSetTableAdapters.IndividualTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:GlobalGamingTournamentManagementSystem.GlobalDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(GlobalGamingTournamentManagementSystem.GlobalDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:GlobalGamingTournamentManagementSystem.GlobalDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(GlobalGamingTournamentManagementSystem.GlobalDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:GlobalGamingTournamentManagementSystem.GlobalDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(GlobalGamingTournamentManagementSystem.GlobalDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:GlobalGamingTournamentManagementSystem.GlobalDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:GlobalGamingTournamentManagementSystem.GlobalDataSetTableAdapters.TableAdapterManager.UpdateAll(GlobalGamingTournamentManagementSystem.GlobalDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:GlobalGamingTournamentManagementSystem.GlobalDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:GlobalGamingTournamentManagementSystem.GlobalDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:GlobalGamingTournamentManagementSystem.GlobalDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:GlobalGamingTournamentManagementSystem.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:GlobalGamingTournamentManagementSystem.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:GlobalGamingTournamentManagementSystem.My.Resources.Resources.csgo1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GlobalGamingTournamentManagementSystem.My.Resources.Resources.dimitris_lamproulis_JKba_MPL2y8_unsplash">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GlobalGamingTournamentManagementSystem.My.Resources.Resources.eyasu_etsub_saG2cl1LD0I_unsplash">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GlobalGamingTournamentManagementSystem.My.Resources.Resources.igor_karimov_2W0eSl3AAu0_unsplash">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GlobalGamingTournamentManagementSystem.My.Resources.Resources.igor_karimov_9AmKnNZw3GA_unsplash">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GlobalGamingTournamentManagementSystem.My.Resources.Resources.image">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GlobalGamingTournamentManagementSystem.My.Resources.Resources.Rectangle_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GlobalGamingTournamentManagementSystem.My.Resources.Resources.toppng_com_dota_2_png_dota_2_earthshaker_immortal_641x433">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:GlobalGamingTournamentManagementSystem.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
